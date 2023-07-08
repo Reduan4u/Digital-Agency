@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    background-color: rgb(112, 124, 124);
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.banner-container {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./digital-agency-main/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.249));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.red-digital {
+    color: red;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-description {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-info {}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+
+/* main part start */
+
+.service-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./digital-agency-main/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.249));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon {
+    width: 70px;
+}
+
+.box {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    color: black;
+    border-radius: 5px;
+}
