@@ -64,23 +64,105 @@
 }
 
 
+
+
 /* main part start */
+/* SERVICE CONTAINER */
+
 
 .service-container {
-    text-align: center;
+    gap: 100px;
     display: flex;
-    align-items: center;
-    height: 100vh;
-    background-image: url('./digital-agency-main/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.249));
+    justify-content: center;
+    width: 100%;
+    background-image: url('./digital-agency-main/asset/image/footer-bg.png'),
+        linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.822));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center;
+    padding-bottom: 120px;
+
+}
+
+.left-side-container {
+    width: 40%;
+    margin-top: 100px;
+
+}
+
+.right-side-container {
+    margin-top: 100px;
+
+}
+
+.service-title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.service-description {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.list>li {
+    margin-left: 15px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+}
+
+.author-part {
+
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgb(245, 44, 44);
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.author-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.more-details {
+    padding: 15px 30px;
+    margin-left: 30px;
+    border-radius: 25px;
+    color: rgb(245, 44, 44);
+}
+
+.author {
+    border-radius: 75px;
+}
+
+.author-title {
+    color: white;
+
+}
+
+.service-button {
+    margin-bottom: 10px;
+    color: rgb(104, 104, 100);
+    border-radius: 20px;
+    padding: 15px 30px;
 
 }
 
 .icon {
     width: 70px;
+}
+
+.servive-box {
+    display: flex;
+
 }
 
 .box {
@@ -91,4 +173,176 @@
     width: 150px;
     color: black;
     border-radius: 5px;
+    margin: 5px;
+}
+
+
+
+/* <!-- APPOINTMENT CONTAINER START --> */
+
+.appointment-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 90px;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 26, 26);
+    margin-top: -40px;
+    border-radius: 20px;
+    gap: 15px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.appointment-icon {
+    width: 100px;
+    padding: 15px;
+}
+
+.number {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.appointment-button {
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+}
+
+.appointment-description {
+    padding: 10px;
+    text-align: justify;
+}
+
+.appointment-call-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+
+}
+
+/* APPOINTMENT CONTAINER END */
+
+.blog-container {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.blog-meta-title {
+    margin-bottom: 40px;
+
+}
+
+.blog-image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blog-header {
+    text-align: left;
+    margin: 20px;
+}
+
+.blog-description {
+    text-align: left;
+    margin: 0px 20px;
+}
+
+.blogs {
+    width: 80%;
+    display: flex;
+    gap: 100px;
+    margin: auto;
+}
+
+.blog {
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+
+}
+
+/* FOOTER CONTAINER START */
+
+.footer {
+    height: 500px;
+    background-image: url('./digital-agency-main/asset/image/footer-bg.png'),
+        linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.822));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-container {
+    display: flex;
+    text-align: left;
+}
+
+#footer-class {
+
+    width: 350px;
+    height: 300px;
+}
+
+.footer-parts {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.footer-part-info {
+    padding-right: 10px;
+}
+
+.footer-part {
+    width: 300px;
+    height: 300px;
+}
+
+.social-icons {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    padding-right: 15px;
+}
+
+.footer-part-title {
+    padding-bottom: 40px;
+}
+
+.footer-parts .special {
+
+    margin-right: 10px;
+}
+
+.footer-lists {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+
+.footer-list {
+    padding-bottom: 10px;
+}
+
+.line {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%
 }
